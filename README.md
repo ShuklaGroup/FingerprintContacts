@@ -2,11 +2,11 @@
 
 Codes for the following manuscript:
 
-FingerprintContacts: Predicting Alternative Conformations of Proteins from Coevolution
+Feng J. and Shukla D. (2020), FingerprintContacts: Predicting Protein Alternative Conformations from Coevolution. J. Phys. Chem. B.
 
 ## Getting Started
 
-source <sourceCodePath>/run <path-to-input-file/sample.inp>
+source \<sourceCodePath\>/run \<path-to-input-file\>/sample.inp
 
 
 ## Authors
