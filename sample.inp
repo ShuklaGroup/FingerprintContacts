@@ -1,0 +1,29 @@
+# Sample input file for FingerprintContacts 
+
+# Software Directory
+sourceCodePath="/home/jf8/method_false_positive/clustering/FingerprintContacts"
+confoldPath="/home/jf8/licenses/CONFOLD2-master/confold-v2.0"
+
+# Output Path
+output_path="/home/jf8/method_false_positive/clustering/results/1ba2"
+
+# Protein Information
+contact_file="/home/jf8/method_false_positive/clustering/results/1ba2/1ba2.rr"
+secondary_structure_file="/home/jf8/method_false_positive/clustering/results/1ba2/1ba2.ss"
+
+# Clustering Parameters
+n_clusters_range=[10, 100, 10]
+bound=[0.005, 0.05, 0.1]
+
+# Scoring Parameters
+tm_thres=0.5
+Q_s_thres=0.6
+
+# Selecting Parameters
+zscore_thres=1.5
+reward_thres=0.5
+
+# Comparison (Optional)
+structure_A="/home/jf8/method_false_positive/clustering/results/1ba2/2dri.pdb"
+structure_B="/home/jf8/method_false_positive/clustering/results/1ba2/1ba2.pdb"
+
